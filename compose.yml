@@ -4,29 +4,34 @@ services:
   site1:
     build:
       context: ./site1
+      dockerfile: ../Dockerfile
     ports:
       - "8081:80"
 
   site2:
     build:
       context: ./site2
+      dockerfile: ../Dockerfile
     ports:
       - "8082:80"
 
   site3:
     build:
       context: ./site3
+      dockerfile: ../Dockerfile
     ports:
       - "8083:80"
 
   site4:
     build:
       context: ./site4
+      dockerfile: ../Dockerfile
     ports:
       - "8084:80"
 
   site5:
     build:
       context: ./site5
+      dockerfile: ../Dockerfile
     ports:
       - "8085:80"
