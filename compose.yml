@@ -35,3 +35,37 @@ services:
       dockerfile: ../Dockerfile
     ports:
       - "8085:80"
+  site6:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "8086:80"
+  site7:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "8087:80"
+  site8:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "8088:80"
+
+  site9:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "8089:80"
+
+
+  site10:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "8090:80"
+
